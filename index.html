@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h1>Nest JS</h1></section>
+				<section>
+					<h2>contents</h2>
+					<ol>
+						<li>Introduction. What Is Nest JS?</li>
+						<li>Why whe should use Nest JS instead of other NodeJS frameworks?</li>
+						<li>More About Nest</li>
+					</ol>
+					</section>
+				<section>
+					<section>
+						<h2>What Is NestJS?</h2>
+					</section>
+					<section>
+						<ul>
+							<li>NodeJS framework</li>
+							<li>Provides an out-of-the-box strict architecture</li>
+							<li>Highly integrated with TS</li>
+							<li>Angular-like architecture divided into modules</li>
+							<li>Good CLI</li>
+						</ul>
+					</section>	
+				</section>
+				<section>
+					<section>
+					<h2>Why should we use this framework?</h2>
+					<ul>
+						<li>Offers a lot of new functionality in comparison Express JS</li>
+						<li>Operates on a clear architecture that helps divide applications into microservices using simple components like modules, controllers, and providers.</li>
+					</ul>
+				</section>
+					<section>
+						<h2>Advantages of the NestJS</h2>
+					</section>
+					<section>
+						<ul>
+							<li>Leverages TypeScript</li>
+							<li>Powerful CLI</li>
+							<li>Contains abuild-in dependency injection</li>
+							<li>Lazy Loading modules</li>
+							<li>Supports a lot of Nest-specific modules</li>
+							<li>Easy unit-testing</li>
+							<li>Provides detailed documentation</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Main concepts of NestJS</h2>
+					</section>
+					<section>
+						<ul>
+							<li>Modules</li>
+							<li>Providers</li>
+							<li>Controllers</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Modules</h4>
+						<p>Modules are building blocks of application, they help to organize code.</p>
+					</section>
+					<section>
+						<h4>Providers</h4>
+						<p>Are the fundamental concept. They can be injected as a dependency. Objects in NestJS can create various relationships with each other.
+						</p>
+					</section>
+					<section>
+						<h4>Controllers</h4>
+						<p>Controllers are responsible for handling incoming requests and returning responses to the client.</p>
+					</section>
+				</section>
+				<section>
+				<section>
+					<h2>How to use NestJS?</h2>
+				</section>
+				<section>
+					<h3>Installation</h3>
+				</section>
+				<section>
+					<ul>
+						<li>Requires Node JS version 12+</li>
+						<li><span>To install Nest CLI globally use this command:</span><pre>npm i -g @nestjs/cli</pre></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Startting new project</h2>
+				</section>
+				<section>
+					<ul>
+						<li><span>Use this command to start new project: </span><pre>nest new project-name</pre></li>
+						<li><span>Then choose package manager in terminal</span><pre>
+? Which package manager would you ❤️  to use? 
+> npm
+  yarn
+  pnpm</pre></li>
+					</ul>
+				</section>
+
+				</section>
+				<section>
+					<h1>The End</h1>
+				</section>
+				
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
